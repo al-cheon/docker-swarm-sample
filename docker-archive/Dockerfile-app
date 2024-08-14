@@ -1,5 +1,5 @@
 FROM openjdk:22
-COPY build/libs/****-sample.jar app.jar
+COPY build/libs/docker-sample-app-0.0.1-SNAPSHOT-plain.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "/app.jar"]
 
