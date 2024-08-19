@@ -14,6 +14,7 @@ SpringBoot app 1개, Nginx 1개를 가지고 멀티노드를 클러스터로 관
 
 
 ## Docker 기본 명령어
+```
 docker images
 docker ps -a
 docker run -d -p 80:8080 --name sample-app thwowjd:docker-swarm-sample:app1.0
@@ -23,7 +24,7 @@ docker rmi [image ID]
 
 ## Docker-compose 명령어
 docker compose up -d
-
+```
 
 ## 설정파일들은 애플리케이션 프로젝트에 보관
 Dockerfile
